@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 
+iframe {
+    border: none;
+}
+
 .center-text {
   display: block;
   text-align: center;
