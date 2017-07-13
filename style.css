@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+
+body { 
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  margin-left: 40vw;
+  margin-top: 10vw;
+  max-width: 500px;
+  font-size: 25px;
+  font-family: sans-serif;
+  color: white;  
+}
+
+.title2 {
+  position: absolute;
+  font-size: 25px;
+  font-family: sans-serif;
+  color: black;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+    
+}
+
+.title h1 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing:2px;
+    font-size: 37px;
+}
+
+.content-portfolio {  
+  
+margin: 0 auto; 
+width:750px;
+}
+
+.title h1 span {
+    text-decoration: line-through;
+}
+
+.title h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+.galleryItem {
+	color: #797478;
+	font: 10px/1.5 Verdana, Helvetica, sans-serif;
+    
+}
+
+.galleryItem img {
+  max-width: 200px;
+  width: 100%;
+  height: auto
+ 
+  
+}
+
+.galleryItem img:hover
+{
+        transition:all 0.3s ease;  
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);  
+        transform: scale(1.3);
+}
+
+.galleryItem h3 {
+	text-transform: uppercase;
+}
+ 
+.galleryItem img {
+	max-width: 400px;
+}
+
+.menu {
+    padding: 64px 0 0 0;
+    text-align: left;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.menu button {
+    height: auto;
+    width: 40px;
+    background-color: transparent;
+    color: #2624b2;
+    border: none;
+    outline: none;
+}
+
+.menu button:hover {
+    color: white;
+}
+
+container {
+    position:relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+.hero {
+    background-image: url("teste_1.gif");
+    background-repeat: no-repeat;
+    background-size: 750px;
+    background-position: center;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+
+}
+
+.hero-portfolio1 {
+    background-image: url("images/1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-color: black;
+    width: 100%;
+    height: 30vw;
+}
+
+.hero-portfolio2 {
+    background-image: url("images/2_2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-color: black;
+    width: 100%;
+    height: 30vw;
+}
+
+.hero-portfolio3 {
+    background-image: url("images/3_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-color: black;
+    width: 100%;
+    height: 30vw;
+}
+
+
+.hero-portfolio4 {
+    background-image: url("images/4_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-color: black;
+    width: 100%;
+    height: 30vw;
+}
+
+
+
+.hero-portfolio-image {
+    background-image: url("images/BrandingApparel.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    background-color: black;
+    width: 100%;
+    height: 20vw;
+}
+
+.content {
+z-index: 9999;
+position: relative;
+    height: 100vh;
+ }
+
+.social {
+    margin-left: 10vw;
+    margin-top: 10vw;
+    max-width: 360px;
+    justify-content: space-between;
+}
+
+a.social-link {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+.retarngle_blue { 
+  margin: 0;
+  top: 0;
+  left: 33vw;
+  position: absolute;
+  width: 130px; 
+  height: 100vh; 
+  background: #2624b2;
+  z-index: 0;
+  
+   animation-name: wobble2;
+  -moz-animation:wobble2 1s; /* Firefox */
+  -webkit-animation:wobble2 0.6s; /* Safari and Chrome */
+  
+}
+.retarngle_blue2 { 
+  margin: 0;
+  top: 0;
+  left: 25vw;
+  position: absolute;
+  width: 2px; 
+  height: 100vh; 
+  background: #1f2125;
+  z-index: 0;
+  
+   animation-name: wobble2;
+  -moz-animation:wobble2 3s; /* Firefox */
+  -webkit-animation:wobble2 2s; /* Safari and Chrome */
+}  
+
+.scroll_down {
+    
+    color: white;
+    width: 200px;
+    z-index: 999999999;
+    color: white;
+    text-decoration: none;
+  
+}
+
+.portfolio {
+    margin: 0 auto;
+    
+    max-width: 960px;
+    padding-top: 64px;
+    background-color: white;
+  
+}
+
+.galleryItem {
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.galleryItemSpecial {
+  margin-top: 130px;
+}
+.gallery {
+position: relative;
+}
+
+.blue-rec-small {
+    width: 100px;
+    height: 2px;
+    background-color: #2624b2;
+    float: right;
+    margin-top: 9px;
+}
+
+.rotate {
+    position: relative;
+    top: 50vh;
+    left: 88vw;
+    width: 230px;
+    -webkit-transform:  translateY(-100%) rotate(90deg);
+    -moz-transform:     translateY(-100%) rotate(90deg);
+    -ms-transform:      translateY(-100%) rotate(90deg);
+    transform:          translateY(-100%) rotate(90deg);
+
+}
+
+@keyframes wobble2 {
+  from {
+    transform: none;
+  }
+
+  0% {
+    transform: translateY(-1200px);
+  }
+  
+     100% {
+    transform: translateY(100px);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+.section-contacts{
+height: 450px;
+width: 100%;  
+display: inline-flex;
+background-image: url(contactimg.gif);
+background-color: black;
+background-repeat:no-repeat;
+background-position: center;  
+  }
+
+.section-contacts-2{
+height: 700px;
+background-image: url(contactimg.gif);
+background-color: black;
+background-repeat:no-repeat;
+background-position: center;
+  }
+
+.contact-me {
+top: 40%;
+width: 100%;  
+position: relative;
+vertical-align: center;  
+color: white;
+text-align: center;
+}
+
+.button {
+    background-color: #2624b2;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 16px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #2c2ac9;
+    color: white;
+}
+
+.image-center {
+position:relative;
+height:  25vw; 
+display: flex;
+margin: 0 auto; 
+  }
+
+.image-center-2 {   
+height:  700px; 
+display: flex;
+margin: 0 auto; 
+  }
+
+.space {
+margin-top: 50px; 
+height: 70px;
+   }
+
+.center-footer {
+margin: 0 auto;
+height: 400px;  
+width: 600px;
+}
+
